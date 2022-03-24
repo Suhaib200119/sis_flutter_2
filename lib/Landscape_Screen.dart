@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Landscape  extends StatelessWidget {
-
+  TextStyle style = new TextStyle(
+      color: Colors.black87, fontSize: 20, fontWeight: FontWeight.bold);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,11 +19,23 @@ class Landscape  extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-              Text("Portrait_1"),
-              Text("Portrait_1"),
-              Text("Portrait_1"),
-              Text("Portrait_1"),
-              Text("Portrait_1"),
+                  Text("Landscape_1",style: style,),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text("Landscape_2",style: style,),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text("Landscape_3",style: style,),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text("Landscape_4",style: style,),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text("Landscape_5",style: style,),
             ]),
 
           ),
